@@ -1,0 +1,27 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)vendor/
+ignore$
+\.avi$
+\.crt$
+\.csr$
+\.ico$
+\.jpe?g$
+\.key$
+\.lock$
+\.map$
+\.min\..
+\.mod$
+\.mp[34]$
+\.password$
+\.pem$
+\.png$
+\.wav$
+^nebula2/common/
+^nebula2/fbthrift/
+^nebula2/graph/
+^nebula2/meta/
+^nebula2/storage/
+^\.github/
